@@ -57,7 +57,7 @@ while ($d = mysqli_fetch_array($data)) {
                 <i class="bi bi-trash"></i>
             </button>
             <!-- Tombol download -->
-            <a href="download_lppd.php?download=<?= $d['file_lppd'] ?>"  class="btn btn-primary">
+            <a href="<?= $d['file_lppd'] ?>"  class="btn btn-primary" download>
                 <i class="bi bi-download"></i>
             </a>
         </td>

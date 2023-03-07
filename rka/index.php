@@ -61,7 +61,7 @@ while ($d = mysqli_fetch_array($data)) {
             </button>
 
             <!-- Tombol download -->
-            <a href="download_rka.php?download=<?= $d['file_rka'] ?>" class="btn btn-primary">
+            <a href="<?= $d['file_rka'] ?>"  class="btn btn-primary" download>
                 <i class="bi bi-download"></i>
             </a>
         </td>
